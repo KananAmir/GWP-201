@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms vs Inputs</title>
+  </head>
+  <body>
+    <form>
+      <label for="username">User Name: </label>
+      <input
+        name="username"
+        id="username"
+        placeholder="your username here..."
+        required
+      />
+      <br />
+
+      <label for="email">Your Email: </label>
+      <input type="email" id="email" name="email" />
+      <br />
+      <label for="email">Password: </label>
+      <input type="password" id="password" name="password" />
+      <br />
+
+      <input type="checkbox" id="html" required />
+      <label for="html">HTML</label>
+      <br />
+      <input type="checkbox" id="css" />
+      <label for="css">CSS</label>
+      <br />
+      <input type="checkbox" id="js" />
+      <label for="js">Javascript</label>
+
+      <br />
+      <label for="">Gender: </label>
+      <br />
+      <label for="male">male</label>
+      <input type="radio" name="gender" id="male" />
+      <label for="female">female</label>
+      <input type="radio" name="gender" id="female" />
+
+      <input type="reset" />
+      <input type="submit" />
+
+      <!-- <button type="submit">Submit</button>
+      <button type="reset">Reset</button> -->
+
+      <input type="date" />
+      <input type="datetime-local" />
+      <input type="month" />
+      <input type="week" />
+
+      <br />
+
+      <hr />
+
+      <input type="file" />
+      <input type="color" />
+      <input type="range" min="0" max="10" step="5" />
+      <br />
+      <label for="">Number:</label>
+      <input type="number" />
+      <br />
+      <label for="">Search:</label>
+      <input type="search" />
+      <br />
+      <label for="">URL:</label>
+      <input type="url" />
+
+      <br />
+      <label for="">Hidden Input:</label>
+      <input type="hidden" value="1532" />
+    </form>
+  </body>
+</html>
