@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background - CSS</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+      }
+      nav ul li a {
+        color: white;
+      }
+
+      header img {
+        width: 50px;
+      }
+
+      #hero-banner {
+        background-color: antiquewhite;
+        height: 100vh;
+        background-image: url("./images/little-cat.jpeg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-attachment: fixed;
+      }
+      #test {
+        background-color: red;
+        height: 100vh;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.jpg" alt="" />
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero-banner"></section>
+    <section id="test"></section>
+  </body>
+</html>
