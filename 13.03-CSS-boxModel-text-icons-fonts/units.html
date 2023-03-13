@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Units - CSS</title>
+
+    <style>
+      html {
+        font-size: 10px;
+      }
+      .text {
+        /* font-size: 48px; */
+        font-size: 2.5rem;
+      }
+      .selected-text {
+        /* font-size: 2rem; */
+        font-size: 2rem;
+        color: red;
+      }
+      .box {
+        width: 80%;
+        height: 50vh;
+        background-color: teal;
+      }
+      .container {
+        width: 70vw;
+        height: 60vh;
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+      <span class="selected-text">inventore</span>
+      ducimus voluptates! Fuga, nam! Quae.
+    </p>
+
+    <hr />
+
+    <div class="container">
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
