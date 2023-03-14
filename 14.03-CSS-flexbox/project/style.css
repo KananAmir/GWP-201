@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+.container .card {
+  padding: 30px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  align-items: center;
+  border-radius: 10px;
+}
+.container .card .avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+.container .card .title {
+  text-transform: uppercase;
+}
+.container .card .position {
+  text-transform: capitalize;
+  opacity: 0.6;
+}
+.container .social-icons a {
+  color: grey;
+}
